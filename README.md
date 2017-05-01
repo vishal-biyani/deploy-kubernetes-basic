@@ -20,10 +20,10 @@ This repository demonstrates the following :
 * Update the integrationName in the integration.hub section with the integration name created above.
 * Change the DOCKER_REPO and DOCKER_ACC to point to your repo and docker account.
 * Next, follow these [CI Setup Instructions](http://docs.shippable.com/ci/runFirstBuild/) to enable your forked project for CI.
-* Build your CI project by clicking on the build button.
+* Build your CI project by clicking on the build button. Once the build completes, the NodeJS docker image will be pushed to your DockerHub account.
 * Create the Kubernetes integration using instructions provided [here]().
 
-##Add the pipeline  in Shippable
+## Add the pipeline  in Shippable
 * Sign in with your shippable account, select your subscription from the dropdown menu in upper left (three horizontal lines).
 * Select the Pipelines tab.
 * Select the "+" icon in the upper right.
